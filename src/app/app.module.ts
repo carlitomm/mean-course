@@ -29,7 +29,9 @@ import { AuthInterceptor } from './auth/auth-interceptor';
     PostListComponent,
     SingupComponent,
     LoginComponent,
-    PostListComponent
+    PostListComponent,
+    PostCreateComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
