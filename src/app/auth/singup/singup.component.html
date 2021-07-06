@@ -1,0 +1,12 @@
+<mat-card>
+  <mat-spinner *ngIf="isLoading"> </mat-spinner>
+  <form (submit)="onSingup(singupForm)" #singupForm="ngForm" *ngIf="!isLoading">
+    <mat-form-field>
+      <input matInput name="email" ngModel type="email" placeholder="email" #emailInput="ngModel">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput name="password" ngModel type="password"  placeholder="password" #passwordInput="ngModel">
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit">Singup</button>
+  </form>
+</mat-card>
