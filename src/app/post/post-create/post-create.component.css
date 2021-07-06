@@ -2,6 +2,7 @@ mat-form-field
 textarea {
   width: 100%;
 }
+<<<<<<< HEAD
 
 mat-spinner{
   margin: auto;
@@ -19,3 +20,5 @@ input[type="file"]{
 .image-preview img {
   height: 100%;
 }
+=======
+>>>>>>> 0201c3bba35ff2d852823546ff75c11c677fa012
